@@ -1,0 +1,1063 @@
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@200&family=Open+Sans:wght@400;500&display=swap%27');
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header{
+    background-color: #1e172f;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 100px;
+    align-items: center;
+    padding: 0px 15%;
+}
+
+#navegador{
+    display: flex;
+    color: rgb(108, 104, 104);
+    margin-left:23%;
+}
+
+#navegador li {
+    width: 148px;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    align-items: center;
+    margin: 0px 30px;
+    cursor: pointer;
+}
+header li:hover{
+    color: rgba(255, 255, 255, 0.732);
+}
+#download{
+    background:linear-gradient(to right, #782dc8, #2f9deb);
+    color: #fff;
+    border-radius:5%;
+    height: 6vh;
+    width: 6vw;
+    
+}
+
+#cabecera{
+    display: flex;
+}
+#seccionizquierda{
+    background-color: #3d3264;
+    width: 45%;
+    height: 900px;
+}
+
+#contenidoizquierda {
+    display: flex;
+    flex-direction: column;
+    color: #fff;
+    width: 100%;
+    margin: 16% 33%;
+}
+
+#contenidoizquierda h1 {
+    font-size: 80px;
+    padding-bottom: 20px;
+}
+#contenidoizquierda p {
+    font-size: 22px;
+    padding-bottom: 30px;
+    width: 27vw;
+}
+#botones{
+    display: flex;
+    justify-content: space-around;
+    border: 1px solid rgba(255, 255, 255, 0.469);
+    border-radius: 6px;
+    width: 40%;
+}
+.bu1{
+    color: rgba(240, 40, 155, 1);
+    width: 50%;
+    height: 50px;
+    font-size: 17px;
+    margin: 5px 0px 5px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.bu2{
+    background-color: transparent;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 4px;
+    color: rgba(255, 255, 255, 0.701);
+    width: 40%;
+    height: 50px;
+    font-size: 18px;
+    margin: 5px 0px 5px;
+    cursor: pointer;
+}
+#seccionderecha{
+    background:url(images/hojasFondo.jpg);
+    background-size: 100% 100%;
+    width: 55%;
+    height: 900px;
+}
+#phone {
+    margin-top: 20%;
+    margin-left: 20%;
+    width: 25%;
+}
+#medio{
+    display: flex;
+    flex-direction: column;
+    margin-top:30px;
+    align-items: center;
+}
+
+
+#laptop{
+    margin-left: 20%;
+    width: 90%;
+    height: 100%;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size:80px;
+    color: #f41486;
+    width:100% ;
+}
+#contmedio{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    margin: inherit;
+}
+#texc{
+    display: flex;
+    font-size:58px;
+    color: #d33084;
+    margin-bottom: 40px;
+}
+#textomedio{
+    margin-right: -5px;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+#sub{
+    color :#f41486;
+    font-size:30px;
+    margin-bottom: 10px;
+}
+#linea{
+    margin-bottom: -4px;
+}
+#check{
+    margin-right: 20px;
+    margin-top: 10px;
+    width: 35px;
+    height: 21px;
+}
+#primero{
+    display: flex;
+    margin-bottom: 14px;
+    font-size: 25px;
+}
+
+#cont{
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    justify-items: center;
+    margin-left: 14%;
+}
+
+#bajo {
+    background-color: #1e172f;
+    
+}
+#titulobajo{
+    color: #fff;
+}
+#textobajo{
+    color: #fff;
+}
+
+
+#titulobajo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 60px;
+    margin: 61px 0px 0px;
+    padding: 30px 0px 30px 0px;
+    
+}
+#textobajo{
+    margin: 15px 20%;
+    font-size: 25px;
+    text-align: center;
+}
+#tarjetas{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 3% 20%;
+}
+.color{
+    cursor: pointer;
+    width: 40%;
+    margin-right: 50px;
+}
+.color:hover #maletin{
+    fill:  #f41486; 
+    transition: all 0.5s;
+}
+.color:hover #nube{
+    fill:  #f41486; 
+    transition: all 0.5s;
+}
+
+.color:hover #check1{
+    fill:  #f41486; 
+    transition: all 0.5s;
+}
+.color:hover #check2{
+    fill:  #f41486; 
+    transition: all 0.5s;
+}
+.color:hover h6{
+    color: #f41486;
+    transition: all 0.5s;
+}
+.color:hover .botonbajo1{
+    background: linear-gradient(to right, #fd8bc6, #eb3292);
+    transition: all 0.5s;
+}
+
+.tarjet1{
+    background-color: #fff;
+    width: 100%;
+    height: 750px;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font: 16px/30px arial,sans-serif;
+    margin: 27px 0px;
+    justify-content: space-between;
+}
+.tarjet2{
+    background-color: #fff;
+    width: 100%;
+    height: 750px;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font: 16px/30px arial,sans-serif;
+    margin: 27px 0px;
+    justify-content: space-between;
+}
+.tarjet3{
+    background-color: #fff;
+    width: 100%;
+    height: 750px;
+    border-radius: 2%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    font: 16px/30px arial,sans-serif;
+    margin: 27px 0px;
+    justify-content: space-between;
+}
+.cabeza{
+    padding-top: 50px;
+}
+h6{
+    font: 25px/10px sans-serif;
+    color:currentColor;
+}
+.oferta{
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    margin-top: 15px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: 30px/0px arial,sans-serif;
+    
+}
+.bajo-medio{
+    font-size:20px;
+}
+.span{
+    font: 15px/0px arial,sans-serif;
+    margin-bottom: 18px;
+    margin-left: 6px;
+}
+.tex-medio{
+    display: flex;
+    align-items: center;
+    margin: 0px 35px;
+}
+#check1{
+    display: flex;
+    min-width: 15px;
+    margin-right: 35px;
+}
+
+
+#check2{
+    display: flex;
+    min-width: 15px;
+    margin-right: 35px;
+    margin-left: -6px;
+}
+#check3{
+    display: flex;
+    min-width: 15px;
+    margin-right: 35px;
+    margin-left: -6px;
+}
+
+.parrafo-medio{
+    margin-top: 36px;
+    margin-bottom: 30px;
+    padding: 0px 35px;
+}
+
+.botonbajo{
+    background-color: rgb(239, 239, 239);
+    width: 100%;
+    height: 100px;
+    border-radius: 0 0 2% 2%;
+    display: flex;
+    justify-content: center;
+    padding-top: 26px;
+}
+.botonbajo1{
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5%;
+    width: 150px;
+    color:#fff;
+    font-size:17px;
+    height: 50px;
+    background-color: #1e172f;
+    cursor: pointer;
+    border: none;
+}
+
+
+
+.infoFooter{
+    display: flex;
+    justify-content: space-between;
+    margin: -20px 100px 17px 100px;
+}
+
+.copy span{
+    color: #f22690;
+}
+
+.logosFooter{
+    display: flex;
+}
+
+.facebook{
+    margin-right: 20px;
+}
+
+.twitter{
+    margin-right: 20px;
+}
+
+.linked{
+    margin-right: 20px;
+}
+
+
+
+
+
+
+/* Responsive Laptop */
+
+@media screen and (min-width: 921px) and (max-width: 1279px){
+    header {
+        width: 100%;
+        height: 80px;
+        padding: 0px 8px 0px 8%;
+    }
+    #navegador li {
+        margin: 0px 18px;
+        font-size: 13px;
+        width: 100px;
+    }
+    #download {
+        height: 5vh;
+        width: 8vw;
+    }
+    #seccionizquierda {
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    #contenidoizquierda h1 {
+        font-size: 50px;
+        padding-bottom: 20px;
+    }
+    #contenidoizquierda p {
+        font-size: 18px;
+        width: 26vw;
+    }
+    #botones {
+        width: 100%;
+    }
+    .bu1 {
+        width: 53%;
+        height: 50px;
+        font-size: 15px;
+    }
+    .bu2 {
+        background-color: transparent;
+        border: 2px solid rgb(255, 255, 255);
+        border-radius: 4px;
+        color: rgba(255, 255, 255, 0.701);
+        width: 40%;
+        height: 50px;
+        font-size: 18px;
+        margin: 5px 0px 5px;
+        cursor: pointer;
+    }
+    .bu2 {
+        width: 37%;
+        font-size: 16px;
+    }
+    #seccionderecha {
+        height: 600px;
+    }
+    #phone {
+        margin-top: 15%;
+        margin-left: 27%;
+        width: 30%;
+    }
+    h2 {
+        margin-bottom: 0%;
+        font-size: 60px;
+    }
+    #laptop {
+        width: 100%;
+        height: 90%;
+        margin-left: 50px;
+    }
+   
+    #texc {
+        font-size: 28px;
+        margin-bottom: 7px;
+    }
+    #textomedio {
+        font-size: 16px;
+        margin-bottom: 6px;
+        width: 150%;
+    }
+    #linea {
+        margin-bottom: -7px;
+    }
+    #sub {
+        font-size: 25px;
+        margin-bottom:10px;
+    }
+    #check {
+        margin-right: 20px;
+        margin-top: 4px;
+        width: 15px;
+        height: 20px;
+    }
+    #primero {
+        display: flex;
+        margin-bottom: 7px;
+        font-size: 16px;
+        width: 110%;
+    }
+    #titulobajo {
+        font-size: 30px;
+        padding: 15px 0px 15px 0px;
+    }
+    #textobajo {
+        margin: 2px 10%;
+        font-size: 14px;
+    }
+    #tarjetas {
+        margin: 2% 10%;
+    }
+    .color {
+        height: 600px;
+        margin: 0px 22px;
+    }
+    .tarjet1 {
+        width: 110%;
+        height: 90%;
+        font: 13px/20px arial,sans-serif;
+    }
+    .tarjet2 {
+        width: 110%;
+        height: 90%;
+        font: 13px/20px arial,sans-serif;
+    }
+    .tarjet3 {
+        width: 110%;
+        height: 90%;
+        font: 13px/20px arial,sans-serif;
+    }
+    .bajo-medio {
+        font-size: 16px;
+    }
+    .oferta {
+        width: 100%;
+        height: 10%;
+        font: 35px/0px arial,sans-serif;
+    }
+    .span {
+        font: 13px/0px arial,sans-serif;
+        margin-bottom: 16px;
+        margin-left: 0px;
+    }
+    .tex-medio {
+        margin: 0px -20px;
+    }
+    #check1 {
+        min-width: 70px;
+        margin-right: 8px;
+        height: 14px;
+    }
+    #check2 {
+        min-width: 83px;
+        margin-right: 0px;
+        height: 26px;
+    }
+    #check3 {
+        min-width: 71px;
+        margin-right: 12px;
+        margin-left: 0px;
+        height: 25px;
+    }
+    .parrafo-medio {
+        margin-top: 18px;
+        margin-bottom: 25px;
+        padding: 0px 0px;
+    }
+    .botonbajo {
+        width: 100%;
+        height: 4rem;
+        padding-top: 7px;
+    }
+    .infoFooter {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 60px 17px 50px;
+    }
+}
+
+/*Tabelt*/
+@media screen and (min-width: 769px) and (max-width: 920px) {
+    header {
+        display: flex;
+        width: 100%;
+        justify-content:center;
+    }
+    #navegador {
+        margin-left: 155px;
+    }
+    #navegador li {
+        margin: 0px 0px;
+        width: 80px;
+        font-size: 15px;
+    }
+    #download {
+        height: 5vh;
+        width: 15vw;
+    }
+    #seccionizquierda {
+        width: 50%;
+        height: 634px;
+    }
+    #contenidoizquierda {
+        width: 181%;
+        margin: 20% 10%;
+    }
+    #contenidoizquierda h1 {
+        font-size: 60px;
+        padding-bottom: 13px;
+    }
+    #seccionderecha {
+        width: 50%;
+        height: 634px;
+    }
+    #phone {
+        margin-top: 35%;
+        margin-left: 30%;
+        width: 41%;
+    }
+    
+    #contmedio {
+        margin: inherit;
+    }
+    h2 {
+        font-size: 50px;
+    }
+    #cont {
+        width: 80%;
+    }
+    #texc {
+        display: flex;
+        font-size: 37px;
+        color: #d33084;
+        margin-bottom: 15px;
+    }
+    #textomedio {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    #sub {
+        font-size: 18px;
+        margin-bottom: 6px;
+    }
+    #primero {
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    #laptop {
+        width: 100%;
+        height: 100%;
+        margin-left: 35px;
+    }
+    #linea {
+        margin-bottom: -9px;
+    }
+    #check {
+        margin-right: 13px;
+        margin-top: 4px;
+        width: 30px;
+        height: 15px;
+    }
+    #titulobajo{
+        font-size: 50px;
+    }
+    #textobajo {
+        margin: 0px 5%;
+        font-size: 18px;
+    }
+    .color {
+        width: 100%;
+    }
+    #tarjetas{
+        display: flex;
+        align-items: center;
+        flex-direction:column;
+        margin: 0px 25%;
+    }
+    .tarjet1 {
+        width: 100%;
+        font: 16px/35px arial,sans-serif;
+        height: 700px;
+    }
+    .tarjet2 {
+        width: 100%;
+        font: 16px/35px arial,sans-serif;
+        height: 700px;
+    }
+    .tarjet3 {
+        width: 100%;
+        font: 16px/35px arial,sans-serif;
+        height: 700px;
+    }
+    .oferta {
+        width: 100%;
+        height: 10%;
+    }
+    .botonbajo{
+        width: 100%;
+        height: 18%;
+    }
+    .botonbajo1{
+        margin-top:-10px
+    }
+    .infoFooter {
+        margin: 3px 9px 0px 31px;
+    }
+    .logosFooter{
+        display: flex;
+    }
+    
+    .facebook{
+        margin-right: 7px;
+    }
+    
+    .twitter{
+        margin-right: 7px;
+    }
+    
+    .linked{
+        margin-right: 7px;
+    }
+    
+}
+
+/*celulares y tablets*/
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    header {
+        height: 120px;
+        flex-direction: column;
+    }
+    #navegador {
+        margin-left: 0%;
+        margin-bottom: 13px;
+    }
+    #navegador li {
+        margin: 0px;
+        font-size: 11px;
+        width: 80px;
+    }
+    #download {
+        height: 40px;
+    }
+    #seccionizquierda {
+        width: 50%;
+        height: 400px;
+    }
+    #contenidoizquierda {
+        width: 100%;
+        margin: 10% 15%;
+    }
+    #contenidoizquierda h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    #contenidoizquierda p {
+        font-size: 18px;
+        padding-bottom: 15px;
+        width: 36vw;
+    }
+    #botones {
+        width: 80%;
+    }
+    .bu1 {
+        font-size: 15px;
+        margin: 5px 0px 0px;
+        width: 45%;
+    }
+    .bu2 {
+        width: 44%;
+        font-size: 13px;
+        width: 45%;
+    }
+    #seccionderecha {
+        width: 50%;
+        height: 400px;
+    }
+    #phone {
+        margin-top: 15%;
+        margin-left: 28%;
+        width: 20vw;
+    }
+    h2 {
+        font-size: 35px;
+    }
+    #contmedio {
+        margin: 15px 0px 0px 0px;
+    }
+    #laptop {
+        width: 100%;
+        height: 90%;
+        margin-left: 0px;
+    }
+    #cont {
+        width: 97%;
+        margin-left: 2%;
+    }
+    #texc {
+        font-size: 25px;
+        margin-bottom: 5px;
+    }
+    #textomedio {
+        margin-right: 0px;
+        font-size: 13px;
+        margin-bottom: 0px;
+    }
+    #linea {
+        margin-bottom: -4px;
+        height: 20px;
+    }
+    #sub {
+        font-size: 16px;
+        margin-bottom: 3px;
+    }
+    #primero {
+        display: flex;
+        margin-bottom: 5px;
+        font-size: 13px;
+    }
+    #check {
+        margin-right: 17px;
+        margin-top: 5px;
+        width: 19px;
+        height: 16px;
+    }
+    #titulobajo {
+        font-size: 45px;
+        margin: 20px 0px 0px;
+        padding: 15px 0px 16px 0px;
+    }
+
+    #textobajo {
+        margin: 0px 5%;
+        font-size: 16px;
+    }
+    .color {
+        width: 80%;
+        margin: 0px 22px;
+    }
+    #tarjetas {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .oferta {
+        width: 100%;
+    }
+    .botonbajo {
+        width: 100%;
+    }
+    .tex-medio {
+        margin: 0px 10px;
+    }
+    .bajo-medio {
+        font-size: 17px;
+    }
+    
+    .tarjet1 {
+        width: 100%;
+        height: 700px;
+        font: 16px/25px arial,sans-serif;
+    }
+    
+    .tarjet2 {
+        width: 100%;
+        height: 700px;
+        font: 16px/25px arial,sans-serif;
+    }
+    .tarjet3 {
+        width: 100%;
+        height: 700px;
+        font: 16px/25px arial,sans-serif;
+    }
+    .infoFooter {
+        flex-direction: column;
+        margin: 0px 0px 8px 10px;
+    }
+    .copy{
+        margin-bottom: 20px;
+    }
+    
+
+
+}
+
+/*Celulares*/
+@media screen and (min-width: 352px) and (max-width: 480px) {
+    header {
+        height: 120px;
+        flex-direction: column;
+    }
+    #navegador {
+        margin-left: 0%;
+        margin-bottom: 13px;
+    }
+    #navegador li {
+        margin: 0px;
+        font-size: 14px;
+        width: 70px;
+    }
+    #download {
+        height: 40px;
+    }
+    #cabecera {
+        display: flex;
+        flex-direction: column;
+    }
+    #seccionizquierda {
+        width: 100%;
+        height: 320px;
+    }
+    #contenidoizquierda {
+        width: 85%;
+        margin: 5% 14%;
+    }
+    #contenidoizquierda h1 {
+        font-size: 35px;
+        padding-bottom: 10px;
+    }
+    #contenidoizquierda p {
+        font-size: 18px;
+        padding-bottom: 15px;
+        width: 80%;
+    }
+    #botones {
+        width: 60%;
+        margin-left: 0px;
+    }
+    .bu1 {
+        font-size: 16px;
+        margin: 5px 0px 0px;
+        width: 45%;
+    }
+    .bu2 {
+        width: 44%;
+        font-size: 16px;
+        width: 45%;
+    }
+    #seccionderecha {
+        width: 100%;
+        height: 320px;
+    }
+    #phone {
+        margin-top: 8%;
+        margin-left: 36%;
+        width: 25%;
+    }
+    h2 {
+        font-size: 40px;
+    }
+    #contmedio {
+        display: flex;
+        margin: 15px 0px 0px 0px;
+        flex-direction: column;
+    }
+    #laptop {
+        width: 90%;
+        height: 90%;
+        margin-left: 25px;
+        margin-bottom: 20px;
+    }
+    #cont {
+        width: 92%;
+        margin-left: 8%;
+    }
+    #texc {
+        font-size: 40px;
+        margin-bottom: 5px;
+    }
+    #textomedio {
+        margin-right: 0px;
+        font-size: 20px;
+        margin-bottom: 5px;
+    }
+    #linea {
+        margin-bottom: -11px;
+        height: 40px;
+    }
+    #sub {
+        font-size: 30px;
+        margin-bottom: 3px;
+    }
+    #primero {
+        display: flex;
+        margin-bottom: 5px;
+        font-size: 20px;
+    }
+    #check {
+        margin-right: 17px;
+        margin-top: 5px;
+        width: 19px;
+        height: 16px;
+    }
+    #titulobajo {
+        font-size: 45px;
+        margin: 20px 0px 0px;
+        padding: 15px 0px 16px 0px;
+    }
+
+    #textobajo {
+        margin: 0px 5%;
+        font-size: 16px;
+    }
+    .color {
+        width: 100%;
+        margin: 0px 22px;
+    }
+    #tarjetas {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .oferta {
+        width: 100%;
+    }
+    .botonbajo {
+        width: 100%;
+    }
+    .tex-medio {
+        margin: 0px 30px;
+        font-size: 15px;
+    }
+    #check1 {
+        margin-left: -8px;
+        margin-right: 15px;
+    }
+    #check2 {
+        min-width: 15px;
+        margin-right: 7px;
+        margin-left: -15px;
+    }
+    #check3 {
+        margin-right: 15px;
+        margin-left: -15px;
+    }
+    .parrafo-medio {
+        margin-top: 20px;
+        margin-bottom: 20px;
+        padding: 0px 0px;
+    }
+    .bajo-medio {
+        font-size: 17px;
+    }
+    .botonbajo {
+        width: 100%;
+        height: 70px;
+        padding: 10px 0px;
+    }
+    
+    .tarjet1 {
+        width: 100%; 
+        height: 620px;
+        font: 16px/25px arial,sans-serif;
+    }
+    
+    .tarjet2 {
+        width: 100%;
+        height: 620px;
+        font: 16px/25px arial,sans-serif;
+    }
+    .tarjet3 {
+        width: 100%;
+        height: 620px;
+        font: 16px/25px arial,sans-serif;
+    }
+    .infoFooter {
+        flex-direction: column;
+        margin: 0px 0px 8px 10px;
+    }
+    .copy{
+        margin-bottom: 20px;
+    }
+    
+    
+}
+
